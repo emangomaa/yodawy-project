@@ -18,7 +18,7 @@ export default function BlogAr() {
                             <div className=" col-12 col-lg-6">
                                 <div className="card">
                                     <div className="trans ">
-                                        <img className="card-img-top" src="/images/blog/image/mid-section-woman-having-stomach-ache_23-2147948390.jpeg"/>
+                                        <img className="card-img-top" src={process.env.PUBLIC_URL+"/images/blog/image/mid-section-woman-having-stomach-ache_23-2147948390.jpeg"}/>
                                     </div> 
                                     <div className="card-body px-0">
                                         <h6 className="card-title">مارس 18, 2021</h6>
@@ -34,7 +34,7 @@ export default function BlogAr() {
                             <div className="col-12 col-lg-6">
                                 <div className="card">
                                     <div className="trans ">
-                                        <img className="card-img-top" src="/images/blog/image/diana-polekhina-ZSpkUThb7qk-unsplash-992x525.jpg" />
+                                        <img className="card-img-top" src={process.env.PUBLIC_URL+"/images/blog/image/diana-polekhina-ZSpkUThb7qk-unsplash-992x525.jpg"} />
                                     </div>
                                         <div className="card-body px-0">
                                         <h6 className="card-title">22 مارس 2021</h6>
@@ -50,7 +50,7 @@ export default function BlogAr() {
                             <div className="col-12 col-lg-6">
                                 <div className="card">
                                     <div className="trans ">
-                                        <img className="card-img-top" src="/images/blog/image/john-cameron-9xpBfMMcCj4-unsplash-992x525.jpg"/>
+                                        <img className="card-img-top" src={process.env.PUBLIC_URL+"/images/blog/image/john-cameron-9xpBfMMcCj4-unsplash-992x525.jpg"}/>
                                     </div>
                                         <div className="card-body px-0">
                                         <h6 className="card-title">22 مارس 2021</h6>

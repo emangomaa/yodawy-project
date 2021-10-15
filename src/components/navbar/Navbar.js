@@ -96,7 +96,7 @@ export default function Navbar(props) {
               to="/"
             >
               <div className="box">
-                <img src={"/images/logo/yodawy-logo-300x74.png"} />
+                <img src={process.env.PUBLIC_URL+"/images/logo/yodawy-logo-300x74.png"} />
               </div>
             </Link>
             <button
@@ -123,11 +123,6 @@ export default function Navbar(props) {
                 <li className="nav-item">
                   <NavLink className="nav-link" to="/pharamcies">
                     For pharmacies
-                  </NavLink>
-                </li>
-                <li className="nav-item">
-                  <NavLink className="nav-link" to="/insurers">
-                    For Insurers
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -200,7 +195,7 @@ export default function Navbar(props) {
             <div className="col-3 col-md-2">
               <div className="box  m-lg-4">
                 <Link to="/">
-                  <img src={"/images/logo/Yodawylogo.png"} />
+                  <img src={process.env.PUBLIC_URL+"/images/logo/Yodawylogo.png"} />
                 </Link>
               </div>
             </div>

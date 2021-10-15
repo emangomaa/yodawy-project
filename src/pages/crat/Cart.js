@@ -48,7 +48,7 @@ export default function Cart() {
                                 <div className="row g-0">
                                     <div className="col-md-4 p-2 row justify-content-center align-items-center">
                                     <Link to="/shop" style={{display: "flex",justifyContent: "center"}} onClick={()=> context.setFilterd(context.products.filter(p => p.id == item.id))}>
-                                        <img style={{maxWidth:"100%", maxHeight:"218px", width:"auto", height:"auto"}} src={`/images/products/${item.imagePath}`} className="img-fluid rounded-start" alt="..."/>
+                                        <img style={{maxWidth:"100%", maxHeight:"218px", width:"auto", height:"auto"}} src={process.env.PUBLIC_URL+`/images/products/${item.imagePath}`} className="img-fluid rounded-start" alt="..."/>
                                     </Link>
                                     </div>
                                     <div className="col-md-8">

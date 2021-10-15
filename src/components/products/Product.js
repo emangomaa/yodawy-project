@@ -71,7 +71,7 @@ export default function Product(props) {
                   <div className="row">
                     <div className="col-12 col-md-4 row align-items-center">
                       <div className="box row justify-content-center ">
-                        <img src={`/images/products/${product.imagePath}`}  className="" />
+                        <img src={process.env.PUBLIC_URL+`/images/products/${product.imagePath}`}  className="" />
                       </div>
                     </div>
                     <div className="col-12 col-md-8">

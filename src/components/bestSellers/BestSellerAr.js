@@ -115,7 +115,7 @@ export default function BestSeller() {
               <Link to="/shop" onClick={()=> context.setFilterd(context.products.filter(p => p.id == el.id))}>
                 <div className="boxx">
                   <img
-                    src={`/images/products/${el.imagePath}`}
+                    src={process.env.PUBLIC_URL+`/images/products/${el.imagePath}`}
                     className="slick-slide-image mx-auto"
                   />
                 </div>

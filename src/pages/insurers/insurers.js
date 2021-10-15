@@ -7,6 +7,7 @@ export default function ForInsurers() {
     return (
         <div className="caro">
             <Navbar compo={false} />
+
             <Carousel axis='vertical' showArrows={true} emulateTouch={true} showThumbs={false}>
                 <div>
                     <div style={{ height: '100vh', backgroundColor: "#02408A" }}>

@@ -80,7 +80,7 @@ export default function NavbarAr(props) {
               to="/"
             >
               <div className="box">
-                <img src={"/images/logo/arabic-logo-300x137.png"} />
+                <img src={process.env.PUBLIC_URL+"/images/logo/arabic-logo-300x137.png"} />
               </div>
             </Link>
             <button
@@ -107,11 +107,6 @@ export default function NavbarAr(props) {
                 <li className="nav-item">
                   <NavLink className="nav-link" to="/pharamcies">
                     الصيدليات
-                  </NavLink>
-                </li>
-                <li className="nav-item">
-                  <NavLink className="nav-link" to="/insurers">
-                    التأمين الصحى
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -180,7 +175,7 @@ export default function NavbarAr(props) {
             <div className="col-3 col-md-2">
               <div className="box  m-lg-4">
                 <Link to="/">
-                  <img src={"/images/logo/yodawy-logo-ar.png"} />
+                  <img src={process.env.PUBLIC_URL+"/images/logo/yodawy-logo-ar.png"} />
                 </Link>
               </div>
             </div>
