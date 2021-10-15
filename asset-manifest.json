@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/yodawy-project/static/css/main.60a415ba.chunk.css",
+    "main.js": "/yodawy-project/static/js/main.22c57ffc.chunk.js",
+    "main.js.map": "/yodawy-project/static/js/main.22c57ffc.chunk.js.map",
+    "runtime-main.js": "/yodawy-project/static/js/runtime-main.03c1987c.js",
+    "runtime-main.js.map": "/yodawy-project/static/js/runtime-main.03c1987c.js.map",
+    "static/css/2.71149b84.chunk.css": "/yodawy-project/static/css/2.71149b84.chunk.css",
+    "static/js/2.4e2099b5.chunk.js": "/yodawy-project/static/js/2.4e2099b5.chunk.js",
+    "static/js/2.4e2099b5.chunk.js.map": "/yodawy-project/static/js/2.4e2099b5.chunk.js.map",
+    "static/js/3.94d2c334.chunk.js": "/yodawy-project/static/js/3.94d2c334.chunk.js",
+    "static/js/3.94d2c334.chunk.js.map": "/yodawy-project/static/js/3.94d2c334.chunk.js.map",
+    "index.html": "/yodawy-project/index.html",
+    "static/css/2.71149b84.chunk.css.map": "/yodawy-project/static/css/2.71149b84.chunk.css.map",
+    "static/css/main.60a415ba.chunk.css.map": "/yodawy-project/static/css/main.60a415ba.chunk.css.map",
+    "static/js/2.4e2099b5.chunk.js.LICENSE.txt": "/yodawy-project/static/js/2.4e2099b5.chunk.js.LICENSE.txt",
+    "static/media/all.css": "/yodawy-project/static/media/fa-solid-900.eeccf4f6.woff",
+    "static/media/slick-theme.css": "/yodawy-project/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03c1987c.js",
+    "static/css/2.71149b84.chunk.css",
+    "static/js/2.4e2099b5.chunk.js",
+    "static/css/main.60a415ba.chunk.css",
+    "static/js/main.22c57ffc.chunk.js"
+  ]
+}
